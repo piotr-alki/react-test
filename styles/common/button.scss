@@ -1,5 +1,6 @@
 .Button {
-  font-weight: bold;
+  font-family: 'AvenirNextLTPro';
+  font-weight: 500;
   border: 2px solid transparent;
   min-height: 3.75rem;
   font-size: 1rem;
@@ -7,10 +8,11 @@
   padding: 1.125rem 2rem;
   border-radius: 3.75rem;
   display: inline-block;
+  text-transform: uppercase;
 }
 
-.ButtonSecondary{
+.Button-ButtonPrimary{
   border-color: $color-secondary;
-  color: #000;
+  color: #FFF;
   background: transparent;
 }

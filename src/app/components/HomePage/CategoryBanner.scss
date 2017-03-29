@@ -1,9 +1,70 @@
 .CategoryBanner-Row{
   display: flex;
+  height: 100vh;
+  width: 100%;
 }
 .CategoryBanner-Banner{
   display: block;
   width: 100%;
   height: 100%;
   background: blue;
+  position: relative;
+  overflow-x: hidden;
+  color: #FFF;
+  &:hover{
+    .CategoryBanner-BannerHoverContent{
+      opacity: 1;
+    }
+    .CategoryBanner-BannerHoverBox{
+      transform: translate(0, 25%);
+    }
+  }
+}
+.CategoryBanner-BannerBkg{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.CategoryBanner-BannerCategoryName{
+  z-index: 1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'AvenirNextLTPro';
+  font-weight: 500;
+}
+
+.CategoryBanner-BannerHoverContent{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0.84);
+  color: #FFF;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+.CategoryBanner-BannerHoverName{
+  font-size: 3.5rem;
+  font-family: 'AvenirNextLTPro';
+  font-weight: 500;
+}
+.CategoryBanner-BannerHoverDesc{
+
+}
+.CategoryBanner-BannerHoverBox{
+  display: inline-block;
+  transform: translate(0 ,0);
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
 }

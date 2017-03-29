@@ -11,3 +11,26 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'MontserratLight';
+  src: url('./../src/fonts/MontserratLight/MontserratLight_0.eot');
+  src: url('./../src/fonts/MontserratLight/MontserratLight_0.eot') format('embedded-opentype'),
+       url('./../src/fonts/MontserratLight/MontserratLight_0.woff2') format('woff2'),
+       url('./../src/fonts/MontserratLight/MontserratLight_0.woff') format('woff'),
+       url('./../src/fonts/MontserratLight/MontserratLight_0.ttf') format('truetype'),
+       url('./../src/fonts/MontserratLight/MontserratLight_0.svg#MontserratLight_0') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNextLTProDemi';
+    src: url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.eot');
+    src: url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.eot') format('embedded-opentype'),
+         url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.woff2') format('woff2'),
+         url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.woff') format('woff'),
+         url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.ttf') format('truetype'),
+         url('./../src/fonts/AvenirNextLTProDemiIt/AvenirNextLTProDemiIt.svg#AvenirNextLTProDemiIt') format('svg');
+  font-weight: normal;
+  font-style: italic;
+}
