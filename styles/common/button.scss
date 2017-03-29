@@ -1,0 +1,16 @@
+.Button {
+  font-weight: bold;
+  border: 2px solid transparent;
+  min-height: 3.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1.125rem 2rem;
+  border-radius: 3.75rem;
+  display: inline-block;
+}
+
+.ButtonSecondary{
+  border-color: $color-secondary;
+  color: #000;
+  background: transparent;
+}
