@@ -5,14 +5,41 @@
   min-height: 3.75rem;
   font-size: 1rem;
   line-height: 1.5rem;
-  padding: 1.125rem 2rem;
+  padding: 1.125rem 1.5rem;
   border-radius: 3.75rem;
   display: inline-block;
   text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .Button-ButtonPrimary{
+  border-color: $color-primary;
+  color: #FFF;
+  background: transparent;
+  &:hover{
+    border-color: $color-primary;
+    color: #FFF;
+    background: rgba($color-primary, 0.5);
+  }
+  &:focus, &:active{
+    background: $color-primary;
+  }
+}
+
+
+.Button-ButtonSecondary{
   border-color: $color-secondary;
   color: #FFF;
   background: transparent;
+  &:hover{
+    border-color: $color-secondary;
+    color: #FFF;
+    background: rgba($color-secondary, 0.5);
+  }
+  &:focus, &:active{
+    background: $color-secondary;
+  }
 }

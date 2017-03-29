@@ -2,6 +2,8 @@ import React from 'react';
 import './CategoryBanner.scss';
 
 require("file-loader?name=img/[name].[ext]!./../../../img/sports.jpg")
+require("file-loader?name=img/[name].[ext]!./../../../img/e-sports.jpg")
+require("file-loader?name=img/[name].[ext]!./../../../img/casino.jpg")
 
 var CategoryBanner = React.createClass({
   render:function() {
@@ -17,6 +19,28 @@ var CategoryBanner = React.createClass({
           </span>
           <img src="img/sports.jpg" alt="" className="CategoryBanner-BannerBkg" />
           <h1 className="CategoryBanner-BannerCategoryName">Sports</h1>
+        </a>
+        <a href="#" className="CategoryBanner-Banner">
+          <span className="CategoryBanner-BannerHoverContent">
+            <span className="CategoryBanner-BannerHoverBox">
+              <span className="CategoryBanner-BannerHoverName">Casino</span>
+              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one place. Don’t wait, Start Now!</p>
+              <span className="Button Button-ButtonPrimary">let the game begin</span>
+            </span>
+          </span>
+          <img src="img/casino.jpg" alt="" className="CategoryBanner-BannerBkg" />
+          <h1 className="CategoryBanner-BannerCategoryName">Casino</h1>
+        </a>
+        <a href="#" className="CategoryBanner-Banner">
+          <span className="CategoryBanner-BannerHoverContent">
+            <span className="CategoryBanner-BannerHoverBox">
+              <span className="CategoryBanner-BannerHoverName">E-sports</span>
+              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one place. Don’t wait, Start Now!</p>
+              <span className="Button Button-ButtonPrimary">let the game begin</span>
+            </span>
+          </span>
+          <img src="img/e-sports.jpg" alt="" className="CategoryBanner-BannerBkg" />
+          <h1 className="CategoryBanner-BannerCategoryName">E-sports</h1>
         </a>
       </div>
     );

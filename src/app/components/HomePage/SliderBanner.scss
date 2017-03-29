@@ -1,5 +1,46 @@
 @import './../../../../styles/variable';
 
+.SliderBanner-Banner{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.SliderBanner-BannerBkg{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.SliderBanner-BannerContent{
+  position: absolute;
+  z-index: 2;
+  color: #FFF;
+}
+
+.SliderBanner-BannerTitle{
+  font-size: 2rem;
+  font-family: 'AvenirNextLTPro';
+  font-weight: 500;
+  margin: 0 0 3rem 0;
+  @media (min-width: 90rem) {
+    font-size: 3.5rem;
+    bottom: 7rem;
+  }
+}
+.SliderBanner-BannerDesc{
+  font-size: 1.125rem;
+  margin: 3rem 0 4.2rem 0;
+  line-height: 1.333;
+}
+
+
+
+
+
+
 .CategoryBanner-Row{
   display: flex;
   height: 100vh;
@@ -30,21 +71,7 @@
     }
   }
 }
-.CategoryBanner-BannerBkg{
-  position: absolute;
-  z-index: 1;
-  @media (max-width: 89.9375rem) {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  @media (min-width: 90rem) {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%)  scale(0.6, 0.6);
-  }
-}
-.CategoryBanner-BannerCategoryName{
+.SliderBanner-BannerTitl234e{
   margin: 0;
   z-index: 1;
   position: absolute;
@@ -82,22 +109,6 @@
   @media (max-width: 47.4375rem) {
     display: none;
   }
-}
-.CategoryBanner-BannerHoverName{
-  font-size: 2rem;
-  font-family: 'AvenirNextLTPro';
-  font-weight: 500;
-  color: $color-primary;
-  margin: 0 0 3rem 0;
-  @media (min-width: 90rem) {
-    font-size: 3.5rem;
-    bottom: 7rem;
-  }
-}
-.CategoryBanner-BannerHoverDesc{
-  font-size: 1.125rem;
-  margin: 3rem 0 4.2rem 0;
-  line-height: 1.333;
 }
 .CategoryBanner-BannerHoverBox{
   padding: 0 1rem;

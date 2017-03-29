@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CategoryBanner from './CategoryBanner';
+import SliderBanner from './SliderBanner';
 
 import './HomePage.scss';
 
@@ -11,6 +12,7 @@ var HomePage = React.createClass({
       <div className="HomePage">
         <div className="HomePage-Row">
           <div className="HomePage-ColSlider">
+            <SliderBanner />
           </div>
           <div className="HomePage-ColCategory">
             <CategoryBanner />
