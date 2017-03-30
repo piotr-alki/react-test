@@ -17,7 +17,7 @@ var SliderBanner = React.createClass({
         </div>
 
         <div className="SliderBanner-Navigation">
-          <a href="#" className="ButtonRound Button-ButtonDefault Button-ButtonMedium">
+          <a href="#" className="ButtonRound Button-ButtonSecondary Button-ButtonMedium">
             <i className="Icon Icon-IconArrowLeft"></i>
           </a>
           <a href="#" className="ButtonRound Button-ButtonSecondary SliderBanner-NavigationNext">

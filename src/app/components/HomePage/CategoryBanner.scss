@@ -26,6 +26,13 @@
       .Button-ButtonPrimary{
         background: $color-primary;
       }
+
+      .CategoryBanner-BannerHoverName{
+        transform: translate(0, 0);
+      }
+      .CategoryBanner-BannerCategoryName{
+        transform: translate(0, 20rem);
+      }
     }
   }
 }
@@ -54,6 +61,8 @@
   bottom: 3rem;
   font-family: 'AvenirNextLTPro';
   font-weight: 500;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  transform: translate(0, 0);
   @media (min-width: 62.5rem) {
     font-size: 2rem;
   }
@@ -83,11 +92,14 @@
   }
 }
 .CategoryBanner-BannerHoverName{
+  display: block;
   font-size: 2rem;
   font-family: 'AvenirNextLTPro';
   font-weight: 500;
   color: $color-primary;
   margin: 0 0 3rem 0;
+  transform: translate(-10%, -20rem);
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
   @media (min-width: 90rem) {
     font-size: 3.5rem;
     bottom: 7rem;
@@ -103,4 +115,15 @@
   display: inline-block;
   transform: translate(0 ,-25%);
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+}
+
+.CategoryBanner-BannerButton{
+  @media (max-width: 99.9375rem) {
+    display: block;
+  }
+}
+.CategoryBanner-BannerBtnDesktopText{
+  @media (max-width: 99.9375rem) {
+    display: none;
+  }
 }
