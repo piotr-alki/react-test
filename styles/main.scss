@@ -12,6 +12,10 @@ html {
   box-sizing: border-box;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  font-size: 0.75rem;
+  @media (min-width: 87.5rem) {
+    font-size: 1rem;
+  }
 }
 
 body {
