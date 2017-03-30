@@ -13,6 +13,47 @@
   transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
   cursor: pointer;
   text-decoration: none;
+  text-align: center;
+}
+
+.ButtonRound {
+  font-family: 'AvenirNextLTPro';
+  font-weight: 500;
+  border: 2px solid transparent;
+  font-size: 1rem;
+  height: 3.75rem;
+  width: 3.75rem;
+  line-height: 3.75rem;
+  border-radius: 3.75rem;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.25s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.Button-ButtonMedium{
+  height: 2.875rem;
+  width: 2.875rem;
+  line-height: 2.875rem;
+  border-radius: 2.875rem;
+}
+
+.Button-ButtonDefault{
+  border-color: #71757d;
+  color: #71757d;
+  background: transparent;
+  &:hover{
+    border-color: #71757d;
+    color: #FFF;
+    background: rgba(#71757d, 0.5);
+  }
+  &:focus, &:active{
+    color: #FFF;
+    background: #71757d;
+  }
 }
 
 .Button-ButtonPrimary{

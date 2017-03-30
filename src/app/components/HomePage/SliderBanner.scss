@@ -1,10 +1,85 @@
 @import './../../../../styles/variable';
 
+.SliderBanner{
+  position: relative;
+}
 .SliderBanner-Banner{
   position: relative;
   height: 100vh;
   width: 100%;
 }
+
+.SliderBanner-Navigation{
+  position: absolute;
+  z-index: 3;
+  top: 2rem;
+  left: 3rem;
+  .SliderBanner-NavigationNext{
+    margin-left: -0.2rem;
+  }
+  @media (min-width: 90rem) {
+    top: 5rem;
+    left: 7rem;
+  }
+}
+
+.SliderBanner-Paginator{
+  position: absolute;
+  z-index: 3;
+  bottom: 2rem;
+  left: 3rem;
+  @media (min-width: 90rem) {
+    left: 7rem;
+    bottom: 5rem;
+  }
+}
+.SliderBanner-PaginatorDottedBox{
+  display: inline-block;
+}
+.SliderBanner-PaginatorDotted{
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  margin: 0 0.3125rem;
+  position: relative;
+  &:before{
+    content: '';
+    display: block;
+    width:  0.5625rem;
+    height: 0.5625rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #FFF;
+    transform: translate(-50%, -50%);
+    transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
+    border: 2px solid transparent;
+    border-radius: 100%;
+  }
+  &:hover, &.SliderBanner-PaginatorDottedActive{
+    &:before{
+      background: transparent;
+      width: 1.25rem;
+      height: 1.25rem;
+      border-color: $color-secondary;
+    }
+  }
+}
+.SliderBanner-PaginatorCount{
+  display: inline-block;
+  text-align: right;
+  color: #777777;
+  font-size: 1.25rem;
+  font-family: 'AvenirNextLTProDemi';
+  font-style: italic;
+  width: 3rem;
+  position: relative;
+  top: -0.2rem;
+}
+.SliderBanner-PaginatorCount-Active{
+  color: #FFF;
+}
+
 .SliderBanner-BannerBkg{
   position: absolute;
   z-index: 1;
@@ -18,25 +93,39 @@
   position: absolute;
   z-index: 2;
   color: #FFF;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding-left: 3rem;
+  max-width: 60%;
+
+  .Button-ButtonSecondary{
+    min-width: 11.875rem;
+  }
+  @media (min-width: 90rem) {
+    padding-left: 7rem;
+    max-width: 60%;
+  }
 }
 
 .SliderBanner-BannerTitle{
   font-size: 2rem;
   font-family: 'AvenirNextLTPro';
   font-weight: 500;
+  line-height: 1.02;
   margin: 0 0 3rem 0;
   @media (min-width: 90rem) {
-    font-size: 3.5rem;
+    font-size: 4.375rem;
     bottom: 7rem;
   }
 }
+
 .SliderBanner-BannerDesc{
-  font-size: 1.125rem;
-  margin: 3rem 0 4.2rem 0;
+  font-size: 1.5rem;
+  margin: 3.6rem 0 4.2rem 0;
   line-height: 1.333;
 }
 
-
+/*
 
 
 
@@ -115,4 +204,4 @@
   display: inline-block;
   transform: translate(0 ,-25%);
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1) 0s;
-}
+}*/
