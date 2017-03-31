@@ -2,7 +2,7 @@ import React from 'react';
 import './CategoryBanner.scss';
 
 require("file-loader?name=img/[name].[ext]!./../../../img/sports.jpg")
-require("file-loader?name=img/[name].[ext]!./../../../img/e-sports.jpg")
+require("file-loader?name=img/[name].[ext]!./../../../img/esports.jpg")
 require("file-loader?name=img/[name].[ext]!./../../../img/casino.jpg")
 
 var CategoryBanner = React.createClass({
@@ -39,7 +39,7 @@ var CategoryBanner = React.createClass({
               <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton"><span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
           </span>
-          <img src="img/e-sports.jpg" alt="" className="CategoryBanner-BannerBkg" />
+          <img src="img/esports.jpg" alt="" className="CategoryBanner-BannerBkg" />
           <h1 className="CategoryBanner-BannerCategoryName">E-sports</h1>
         </a>
       </div>
