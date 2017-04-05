@@ -23,4 +23,4 @@ let HomePage = React.createClass({
   },
 });
 
-module.exports = HomePage;
+export default HomePage;

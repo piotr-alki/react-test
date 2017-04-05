@@ -42,4 +42,4 @@ let SliderBanner = React.createClass({
   },
 });
 
-module.exports = SliderBanner;
+export default SliderBanner;

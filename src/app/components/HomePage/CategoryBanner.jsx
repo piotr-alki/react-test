@@ -53,4 +53,4 @@ let CategoryBanner = React.createClass({
   },
 });
 
-module.exports = CategoryBanner;
+export default CategoryBanner;
