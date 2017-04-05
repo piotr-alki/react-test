@@ -34,7 +34,7 @@ module.exports = [
 		exclude: /(node_modules|bower_components)/,
 		loader: "url-loader?limit=10000&mimetype=image/gif"
 	}
-	/*,
+	,
 	{
 		test: /\.jpg/,
 		exclude: /(node_modules|bower_components)/,
@@ -44,5 +44,5 @@ module.exports = [
 		test: /\.png/,
 		exclude: /(node_modules|bower_components)/,
 		loader: "url-loader?limit=10000&mimetype=image/png"
-	}*/
+	}
 ];

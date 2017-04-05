@@ -1,7 +1,7 @@
 import React from 'react';
 import './SliderBanner.scss';
 
-require("file-loader?name=img/[name].[ext]!./../../../img/slider-banner.jpg")
+import sliderBanner from './../../../img/slider-banner.jpg';
 
 let SliderBanner = React.createClass({
   render:function() {
@@ -15,7 +15,7 @@ let SliderBanner = React.createClass({
               deposit at Bitwin, a 50% bonus up to €100 or 1 BTC!</p>
               <a href="#" className="Button Button-ButtonSecondary">Check</a>
           </div>
-          <img src="img/slider-banner.jpg" alt="" className="SliderBanner-BannerBkg" />
+          <img src={sliderBanner} alt=""  className="SliderBanner-BannerBkg" />
         </div>
 
         <div className="SliderBanner-Navigation">
