@@ -6,7 +6,7 @@ import SliderBanner from './SliderBanner';
 import './HomePage.scss';
 
 
-var HomePage = React.createClass({
+let HomePage = React.createClass({
   render:function() {
     return (
       <div className="HomePage">

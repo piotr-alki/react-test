@@ -3,7 +3,7 @@ import './SliderBanner.scss';
 
 require("file-loader?name=img/[name].[ext]!./../../../img/slider-banner.jpg")
 
-var SliderBanner = React.createClass({
+let SliderBanner = React.createClass({
   render:function() {
     return (
       <div className="SliderBanner">

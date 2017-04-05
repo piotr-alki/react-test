@@ -5,7 +5,7 @@ require("file-loader?name=img/[name].[ext]!./../../../img/sports.jpg")
 require("file-loader?name=img/[name].[ext]!./../../../img/esports.jpg")
 require("file-loader?name=img/[name].[ext]!./../../../img/casino.jpg")
 
-var CategoryBanner = React.createClass({
+let CategoryBanner = React.createClass({
   render:function() {
     return (
       <div className="CategoryBanner-Row">
@@ -26,10 +26,8 @@ var CategoryBanner = React.createClass({
           <span className="CategoryBanner-BannerHoverContent">
             <span className="CategoryBanner-BannerHoverBox">
               <span className="CategoryBanner-BannerHoverName">Casino</span>
-              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one
-               place. Don’t wait, Start Now!</p>
-              <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton">
-                <span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
+              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one place. Don’t wait, Start Now!</p>
+              <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton"><span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
           </span>
           <img src="img/casino.jpg" alt="" className="CategoryBanner-BannerBkg" />
@@ -39,10 +37,8 @@ var CategoryBanner = React.createClass({
           <span className="CategoryBanner-BannerHoverContent">
             <span className="CategoryBanner-BannerHoverBox">
               <span className="CategoryBanner-BannerHoverName">E-sports</span>
-              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports
-                in one place. Don’t wait, Start Now!</p>
-              <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton">
-                <span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
+              <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one place. Don’t wait, Start Now!</p>
+              <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton"><span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
           </span>
           <img src="img/esports.jpg" alt="" className="CategoryBanner-BannerBkg" />
