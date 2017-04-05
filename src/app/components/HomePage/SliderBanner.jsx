@@ -9,8 +9,10 @@ var SliderBanner = React.createClass({
       <div className="SliderBanner">
         <div className="SliderBanner-Banner">
           <div className="SliderBanner-BannerContent">
-              <h1 className="SliderBanner-BannerTitle">Bonus €100&nbsp;Deposit Or&nbsp;1&nbsp;BTC</h1>
-              <p className="SliderBanner-BannerDesc">Here's to fun! On your deposit at Bitwin, a 50% bonus up to €100 or 1 BTC!</p>
+              <h1 className="SliderBanner-BannerTitle">Bonus €100&nbsp;Deposit
+              Or&nbsp;1&nbsp;BTC</h1>
+              <p className="SliderBanner-BannerDesc">Here's to fun! On your
+              deposit at Bitwin, a 50% bonus up to €100 or 1 BTC!</p>
               <a href="#" className="Button Button-ButtonSecondary">Check</a>
           </div>
           <img src="img/slider-banner.jpg" alt="" className="SliderBanner-BannerBkg" />
