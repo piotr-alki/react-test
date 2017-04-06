@@ -14,7 +14,7 @@ let CategoryBanner = React.createClass({
             <span className="CategoryBanner-BannerHoverBox">
               <span className="CategoryBanner-BannerHoverName">Sports</span>
               <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports in one
-                place. Don’t wait, Start Now!</p>
+                place. Don’t wait,<br />Start Now!</p>
               <span className="Button Button-ButtonPrimary CategoryBanner-BannerButton">
                 <span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
@@ -27,7 +27,7 @@ let CategoryBanner = React.createClass({
             <span className="CategoryBanner-BannerHoverBox">
               <span className="CategoryBanner-BannerHoverName">Casino</span>
               <p className="CategoryBanner-BannerHoverDesc">Incredible Word of
-              all Sports in one place. Don’t wait, Start Now!</p>
+              all Sports in one place. Don’t wait,<br />Start Now!</p>
               <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton">
                 <span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
@@ -40,7 +40,7 @@ let CategoryBanner = React.createClass({
             <span className="CategoryBanner-BannerHoverBox">
               <span className="CategoryBanner-BannerHoverName">E-sports</span>
               <p className="CategoryBanner-BannerHoverDesc">Incredible Word of all Sports
-              in one place. Don’t wait, Start Now!</p>
+              in one place. Don’t wait,<br />Start Now!</p>
               <span className="Button Button-ButtonPrimary  CategoryBanner-BannerButton">
                 <span className="CategoryBanner-BannerBtnDesktopText">let the game</span> begin</span>
             </span>
