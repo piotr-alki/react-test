@@ -5,7 +5,7 @@ import sports from './../../../img/sports.jpg';
 import esports from './../../../img/esports.jpg';
 import casino from './../../../img/casino.jpg';
 
-let CategoryBanner = React.createClass({
+const CategoryBanner = React.createClass({
   render:function() {
     return (
       <div className="CategoryBanner-Row">

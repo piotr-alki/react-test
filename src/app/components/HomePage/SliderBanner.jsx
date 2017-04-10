@@ -3,7 +3,7 @@ import './SliderBanner.scss';
 
 import sliderBanner from './../../../img/slider-banner.jpg';
 
-let SliderBanner = React.createClass({
+const SliderBanner = React.createClass({
   render:function() {
     return (
       <div className="SliderBanner">
